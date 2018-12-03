@@ -1,10 +1,8 @@
 package advent_of_code_2018;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;
 import java.util.stream.Stream;
 
 public class Day02 {
