@@ -9,6 +9,8 @@ import java.util.stream.Stream;
 
 class Test01 {
 
+	String INPUT_FILE = "input/day01.txt";
+	
 	@Test
 	void test1() {
 		// Easier way to construct IntStream?
@@ -19,7 +21,7 @@ class Test01 {
 
 	@Test
 	void testPart1() throws IOException {
-		assertEquals(Day01.solve1(Utils.fileToIntStream("input/day1.txt")), 433);
+		assertEquals(Day01.solve1(Utils.fileToIntStream(INPUT_FILE)), 433);
 	}
 
 
@@ -34,7 +36,7 @@ class Test01 {
 	
 	@Test
 	void testPart2() throws IOException {
-		assertEquals(Day01.solve2(Utils.fileToIntStream("input/day1.txt")), 256);
+		assertEquals(Day01.solve2(Utils.fileToIntStream(INPUT_FILE)), 256);
 	}
 	
 }
